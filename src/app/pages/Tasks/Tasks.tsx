@@ -1,0 +1,17 @@
+'use client'
+import AddTask from '../../components/addTask'
+import Sidebar from '../../sidebar/sidebar'
+export default function TaskPage () {
+  return (
+    <div className='flex'>
+      {/* Сайдбар слева */}
+      <Sidebar />
+
+      {/* Контент справа */}
+      <main className='flex-1 p-6'>
+        <h1 className='text-2xl font-bold mb-6'>Tasks</h1>
+        <AddTask />
+      </main>
+    </div>
+  )
+}
