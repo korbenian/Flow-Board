@@ -1,12 +1,13 @@
-// AvatarUpload.tsx
 'use client'
 
-import { useTask } from '../components/context/TaskContext'
+import { useTask } from '../../components/context/TaskContext'
 import { useState } from 'react'
+import { useTranslations } from 'next-intl'
 
 export default function AvatarUpload () {
   const { profile, Saveprofile } = useTask()
   const [loading, setLoading] = useState(false)
+  const t = useTranslations('avatarUpload')
 
   const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]
@@ -16,7 +17,7 @@ export default function AvatarUpload () {
 
     const formData = new FormData()
     formData.append('file', file)
-    formData.append('upload_preset', 'avatar_preset') // ТВОЙ PRESET
+    formData.append('upload_preset', 'avatar_preset') // ⚙️ твой preset
 
     const res = await fetch(
       `https://api.cloudinary.com/v1_1/dia6epw5k/image/upload`,
@@ -46,7 +47,7 @@ export default function AvatarUpload () {
         className='w-52 h-52 rounded-full object-cover border'
       />
       <label className='cursor-pointer bg-blue-600 text-white px-3 py-1 rounded'>
-        {loading ? 'Загрузка...' : 'Изменить аватар'}
+        {loading ? t('loading') : t('changeAvatar')}
         <input type='file' className='hidden' onChange={handleUpload} />
       </label>
     </div>

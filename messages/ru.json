@@ -1,0 +1,108 @@
+{
+  "sidebar": {
+    "title": "FlowBoard",
+    "overview": "ОБЗОР",
+    "dashboard": "Панель",
+    "articles": "Статьи",
+    "tasks": "Задачи",
+    "group": "Группа",
+    "logout": "Выйти",
+    "pro": "Профиль"
+  },
+  "Tasks": {
+    "searchPlaceholder": "Поиск задач...",
+    "filterAll": "Все",
+    "filterTodo": "К выполнению",
+    "filterInProgress": "В процессе",
+    "filterDone": "Готово"
+  },
+  "avatarUpload": {
+    "loading": "Загрузка...",
+    "changeAvatar": "Изменить аватар"
+  },
+  "taskEditing": {
+    "enterTask": "Введите задачу...",
+    "deadline": "Дедлайн до",
+    "create": "Создать",
+    "delete": "Удалить"
+  },
+  "tas": {
+    "Tasks": "Задачи"
+  },
+  "articl": {
+    "art": "Статьи по фронтенду"
+  },
+  "dashboard": {
+    "welcome": "С возвращением!",
+    "stats": "Ваша статистика",
+    "tasksCompleted": "Выполнено задач",
+    "articlesPublished": "Опубликовано статей",
+    "tasksCreated": "Создано задач",
+    "totalUsers": "Всего пользователей",
+    "tasksDone": "Задачи выполнены",
+    "disciplineStreak": "Серия дисциплины",
+    "days": "дн.",
+    "activityThisWeek": "Активность за неделю",
+    "recentActivities": "Последняя активность",
+    "noRecentActivity": "Нет недавней активности"
+  },
+  "tasks": {
+    "title": "Задачи",
+    "addTask": "Добавить новую задачу",
+    "noTasks": "У вас пока нет задач"
+  },
+  "taskForm": {
+    "enterTask": "Введите задачу...",
+    "deadlineUntil": "Дедлайн до",
+    "create": "Создать",
+    "delete": "Удалить"
+  },
+  "taskView": {
+    "todo": "К выполнению",
+    "inProgress": "В процессе",
+    "done": "Сделано",
+    "deadline": "Дедлайн",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "close": "Закрыть",
+    "confirmDelete": "Вы точно хотите удалить?"
+  },
+  "articles": {
+    "title": "Статьи",
+    "newArticle": "Создать новую статью",
+    "noArticles": "Пока нет статей"
+  },
+  "profileEdit": {
+    "title": "Редактирование профиля",
+    "uploadLabel": "Загрузите фотографию",
+    "nameLabel": "Имя",
+    "namePlaceholder": "Введите Ваше имя",
+    "pseudoLabel": "Псевдоним",
+    "pseudoPlaceholder": "Введите Ваш псевдоним",
+    "ageLabel": "Возраст",
+    "agePlaceholder": "Введите Ваш возраст",
+    "sexLabel": "Пол",
+    "sexPlaceholder": "Ваш пол",
+    "descLabel": "Описание",
+    "descPlaceholder": "Опишите себя",
+    "locationLabel": "Город / Страна",
+    "locationPlaceholder": "Ваше местоположение",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Введите почту",
+    "saveBtn": "Сохранить",
+    "cancelBtn": "Отменить"
+  },
+  "profile": {
+    "loading": "Загрузка...",
+    "notSpecified": "Не указано",
+    "fillProfile": "Заполнить профиль",
+    "addTech": "Добавить технологии",
+    "hideTech": "Скрыть технологии",
+    "technologies": "Технологии",
+    "notSelected": "Не выбрано",
+    "completedTasks": "Готовые задачи",
+    "deadline": "Дедлайн",
+    "noTasksDone": "Нет выполненных задач",
+    "pro": "Профиль"
+  }
+}

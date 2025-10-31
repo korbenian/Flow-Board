@@ -1,9 +1,12 @@
-//C:\Users\01\training\src\app\pages\TaskEditing.tsx
+// C:\Users\01\training\src\app\pages\TaskEditing.tsx
 'use client'
+
 import { useState } from 'react'
 import Input from '../../components/Input'
 import { Task } from '../../components/context/TaskContext'
 import { useTask } from '../../components/context/TaskContext'
+import { useTranslations } from 'next-intl'
+
 export default function TaskEditing ({
   task,
   onSave
@@ -11,12 +14,13 @@ export default function TaskEditing ({
   task: Task
   onSave: (id: string, title: string, deadline: string) => void
 }) {
+  const t = useTranslations('taskEditing')
   const [title, setTitle] = useState(task.title)
   const [deadline, setDeadline] = useState(task.deadline)
-  const [isEditing, SetIsEditing] = useState(false)
   const { removeTask } = useTask()
+
   const handleAddTask = async () => {
-    await onSave(task.id, title, deadline) // 🔑 сохраняем через контекст
+    await onSave(task.id, title, deadline)
   }
 
   return (
@@ -24,15 +28,16 @@ export default function TaskEditing ({
       <div className='flex items-center gap-3'>
         <Input
           type='text'
-          placeholder='Введите задачу...'
+          placeholder={t('enterTask')}
           value={title}
           onChange={e => setTitle(e.target.value)}
           className='w-96'
         />
       </div>
+
       <div className='mt-2'>
         <label className='text-sm text-gray-600'>
-          Дедлайн до:
+          {t('deadline')}:
           <Input
             type='date'
             value={deadline}
@@ -41,12 +46,13 @@ export default function TaskEditing ({
           />
         </label>
       </div>
+
       <div className='flex gap-2 '>
         <button
           onClick={handleAddTask}
           className='mt-2 px-3 py-1 bg-green-600 text-white rounded-lg'
         >
-          Создать
+          {t('create')}
         </button>
         <button
           className='mt-2 px-3 py-1 bg-red-600 text-white rounded-lg'
@@ -54,7 +60,7 @@ export default function TaskEditing ({
             await removeTask(task.id)
           }}
         >
-          Удалить
+          {t('delete')}
         </button>
       </div>
     </div>

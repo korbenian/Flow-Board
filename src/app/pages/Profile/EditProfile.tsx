@@ -1,8 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import Input from '../components/Input'
-import { Profile, useTask } from './../components/context/TaskContext'
+import Input from '../../components/Input'
+import { useTranslations } from 'next-intl'
+import { Profile, useTask } from '../../components/context/TaskContext'
 export default function EditProfile ({
   user,
   onClose
@@ -12,6 +13,7 @@ export default function EditProfile ({
 }) {
   const { Saveprofile } = useTask()
   const [formData, setFormData] = useState<Profile>(user)
+  const t = useTranslations('profileEdit')
   const handleChange = (key: keyof Profile, value: string) => {
     setFormData(prev => ({ ...prev, [key]: value }))
   }
@@ -23,12 +25,12 @@ export default function EditProfile ({
   return (
     <div className='p-6 bg-gradient-to-b from-sky-100 to-white rounded-xl shadow-lg w-full max-w-lg mx-auto flex flex-col gap-5'>
       <h2 className='text-2xl font-bold text-blue-700 text-center'>
-        ✏️ Редактирование профиля
+        ✏️ {t('title')}
       </h2>
 
-      {/* Аватар отдельно */}
+      {/* Фото */}
       <div className='flex flex-col items-center gap-2'>
-        <label className='text-gray-600 text-sm'>Загрузите фотографию</label>
+        <label className='text-gray-600 text-sm'>{t('uploadLabel')}</label>
         <Input
           type='file'
           accept='image/*'
@@ -36,28 +38,44 @@ export default function EditProfile ({
         />
       </div>
 
-      {/* Все остальные поля */}
+      {/* Поля */}
       {(
         [
-          { key: 'name', placeholder: 'Введите Ваше имя', label: 'Имя' },
+          {
+            key: 'name',
+            placeholder: t('namePlaceholder'),
+            label: t('nameLabel')
+          },
           {
             key: 'pseudoname',
-            placeholder: 'Введите Ваш псевдоним',
-            label: 'Псевдоним'
+            placeholder: t('pseudoPlaceholder'),
+            label: t('pseudoLabel')
           },
-          { key: 'age', placeholder: 'Введите Ваш возраст', label: 'Возраст' },
-          { key: 'sex', placeholder: 'Ваш пол', label: 'Пол' },
+          {
+            key: 'age',
+            placeholder: t('agePlaceholder'),
+            label: t('ageLabel')
+          },
+          {
+            key: 'sex',
+            placeholder: t('sexPlaceholder'),
+            label: t('sexLabel')
+          },
           {
             key: 'description',
-            placeholder: 'Опишите себя',
-            label: 'Описание'
+            placeholder: t('descPlaceholder'),
+            label: t('descLabel')
           },
           {
             key: 'location',
-            placeholder: 'Ваше местоположение',
-            label: 'Город / Страна'
+            placeholder: t('locationPlaceholder'),
+            label: t('locationLabel')
           },
-          { key: 'email', placeholder: 'Введите почту', label: 'Email' }
+          {
+            key: 'email',
+            placeholder: t('emailPlaceholder'),
+            label: t('emailLabel')
+          }
         ] as const
       ).map(field => (
         <div key={field.key} className='flex flex-col gap-1'>
@@ -80,13 +98,13 @@ export default function EditProfile ({
           className='bg-blue-600 text-white px-5 py-2 rounded-lg shadow-md hover:bg-blue-700 active:scale-95 transition'
           onClick={Saving}
         >
-          ✅ Сохранить
+          ✅ {t('saveBtn')}
         </button>
         <button
           className='bg-red-400 text-white px-5 py-2 rounded-lg shadow-md hover:bg-red-500 active:scale-95 transition'
           onClick={onClose}
         >
-          ❌ Отменить
+          ❌ {t('cancelBtn')}
         </button>
       </div>
     </div>

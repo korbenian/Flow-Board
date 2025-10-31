@@ -1,0 +1,107 @@
+{
+  "sidebar": {
+    "title": "FlowBoard",
+    "overview": "ΕΠΙΣΚΟΠΗΣΗ",
+    "dashboard": "Πίνακας ελέγχου",
+    "articles": "Άρθρα",
+    "tasks": "Εργασίες",
+    "group": "Ομάδα",
+    "logout": "Αποσύνδεση",
+    "pro": "Προφίλ"
+  },
+  "dashboard": {
+    "welcome": "Καλώς ήρθες ξανά!",
+    "stats": "Οι στατιστικές σου",
+    "tasksCompleted": "Ολοκληρωμένες εργασίες",
+    "articlesPublished": "Δημοσιευμένα άρθρα",
+    "tasksCreated": "Δημιουργημένες εργασίες",
+    "totalUsers": "Συνολικοί χρήστες",
+    "tasksDone": "Εργασίες ολοκληρωμένες",
+    "disciplineStreak": "Σειρά πειθαρχίας",
+    "days": "ημέρες",
+    "activityThisWeek": "Δραστηριότητα αυτήν την εβδομάδα",
+    "recentActivities": "Πρόσφατες δραστηριότητες",
+    "noRecentActivity": "Δεν υπάρχουν πρόσφατες δραστηριότητες"
+  },
+  "Tasks": {
+    "searchPlaceholder": "Αναζήτηση εργασιών...",
+    "filterAll": "Όλες",
+    "filterTodo": "Προς εκτέλεση",
+    "filterInProgress": "Σε εξέλιξη",
+    "filterDone": "Ολοκληρωμένες"
+  },
+  "taskForm": {
+    "enterTask": "Εισαγάγετε εργασία...",
+    "deadlineUntil": "Προθεσμία έως",
+    "create": "Δημιουργία",
+    "delete": "Διαγραφή"
+  },
+  "taskView": {
+    "todo": "Προς ολοκλήρωση",
+    "inProgress": "Σε εξέλιξη",
+    "done": "Ολοκληρωμένο",
+    "deadline": "Προθεσμία",
+    "delete": "Διαγραφή",
+    "edit": "Επεξεργασία",
+    "close": "Κλείσιμο",
+    "confirmDelete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε;"
+  },
+  "avatarUpload": {
+    "loading": "Φόρτωση...",
+    "changeAvatar": "Αλλαγή άβαταρ"
+  },
+  "taskEditing": {
+    "enterTask": "Εισάγετε εργασία...",
+    "deadline": "Προθεσμία έως",
+    "create": "Δημιουργία",
+    "delete": "Διαγραφή"
+  },
+  "tas": {
+    "Tasks": "Εργασίες"
+  },
+  "articl": {
+    "art": "Άρθρα Frontend"
+  },
+  "profileEdit": {
+    "title": "Επεξεργασία προφίλ",
+    "uploadLabel": "Ανεβάστε φωτογραφία",
+    "nameLabel": "Όνομα",
+    "namePlaceholder": "Εισάγετε το όνομά σας",
+    "pseudoLabel": "Ψευδώνυμο",
+    "pseudoPlaceholder": "Εισάγετε το ψευδώνυμό σας",
+    "ageLabel": "Ηλικία",
+    "agePlaceholder": "Εισάγετε την ηλικία σας",
+    "sexLabel": "Φύλο",
+    "sexPlaceholder": "Το φύλο σας",
+    "descLabel": "Περιγραφή",
+    "descPlaceholder": "Περιγράψτε τον εαυτό σας",
+    "locationLabel": "Πόλη / Χώρα",
+    "locationPlaceholder": "Η τοποθεσία σας",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Εισάγετε το email σας",
+    "saveBtn": "Αποθήκευση",
+    "cancelBtn": "Ακύρωση"
+  },
+  "tasks": {
+    "title": "Εργασίες",
+    "addTask": "Προσθήκη νέας εργασίας",
+    "noTasks": "Δεν έχεις ακόμα εργασίες"
+  },
+  "articles": {
+    "title": "Άρθρα",
+    "newArticle": "Δημιουργία νέου άρθρου",
+    "noArticles": "Δεν υπάρχουν ακόμη άρθρα"
+  },
+  "profile": {
+    "loading": "Φόρτωση...",
+    "notSpecified": "Δεν καθορίστηκε",
+    "fillProfile": "Συμπλήρωση προφίλ",
+    "addTech": "Προσθήκη τεχνολογιών",
+    "hideTech": "Απόκρυψη τεχνολογιών",
+    "technologies": "Τεχνολογίες",
+    "notSelected": "Δεν επιλέχθηκε",
+    "completedTasks": "Ολοκληρωμένες εργασίες",
+    "deadline": "Προθεσμία",
+    "noTasksDone": "Καμία ολοκληρωμένη εργασία"
+  }
+}

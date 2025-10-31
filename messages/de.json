@@ -1,0 +1,108 @@
+{
+  "sidebar": {
+    "title": "FlowBoard",
+    "overview": "ÜBERSICHT",
+    "dashboard": "Dashboard",
+    "articles": "Artikel",
+    "tasks": "Aufgaben",
+    "group": "Gruppe",
+    "logout": "Abmelden",
+    "pro": "Profil"
+  },
+  "Tasks": {
+    "searchPlaceholder": "Aufgaben suchen...",
+    "filterAll": "Alle",
+    "filterTodo": "Zu erledigen",
+    "filterInProgress": "In Bearbeitung",
+    "filterDone": "Erledigt"
+  },
+  "taskView": {
+    "todo": "Zu erledigen",
+    "inProgress": "In Bearbeitung",
+    "done": "Erledigt",
+    "deadline": "Frist",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "confirmDelete": "Möchten Sie wirklich löschen?"
+  },
+  "avatarUpload": {
+    "loading": "Wird hochgeladen...",
+    "changeAvatar": "Avatar ändern"
+  },
+  "taskEditing": {
+    "enterTask": "Aufgabe eingeben...",
+    "deadline": "Frist bis",
+    "create": "Erstellen",
+    "delete": "Löschen"
+  },
+  "tas": {
+    "Tasks": "Aufgaben"
+  },
+  "articl": {
+    "art": "Frontend-Artikel"
+  },
+  "profileEdit": {
+    "title": "Profil bearbeiten",
+    "uploadLabel": "Foto hochladen",
+    "nameLabel": "Name",
+    "namePlaceholder": "Geben Sie Ihren Namen ein",
+    "pseudoLabel": "Spitzname",
+    "pseudoPlaceholder": "Geben Sie Ihren Spitznamen ein",
+    "ageLabel": "Alter",
+    "agePlaceholder": "Geben Sie Ihr Alter ein",
+    "sexLabel": "Geschlecht",
+    "sexPlaceholder": "Ihr Geschlecht",
+    "descLabel": "Beschreibung",
+    "descPlaceholder": "Beschreiben Sie sich selbst",
+    "locationLabel": "Stadt / Land",
+    "locationPlaceholder": "Ihr Standort",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail ein",
+    "saveBtn": "Speichern",
+    "cancelBtn": "Abbrechen"
+  },
+  "taskForm": {
+    "enterTask": "Aufgabe eingeben...",
+    "deadlineUntil": "Frist bis",
+    "create": "Erstellen",
+    "delete": "Löschen"
+  },
+  "dashboard": {
+    "welcome": "Willkommen zurück!",
+    "stats": "Deine Statistiken",
+    "tasksCompleted": "Abgeschlossene Aufgaben",
+    "articlesPublished": "Veröffentlichte Artikel",
+    "tasksCreated": "Erstellte Aufgaben",
+    "totalUsers": "Gesamtanzahl Benutzer",
+    "tasksDone": "Erledigte Aufgaben",
+    "disciplineStreak": "Disziplin-Serie",
+    "days": "Tage",
+    "activityThisWeek": "Aktivitäten dieser Woche",
+    "recentActivities": "Jüngste Aktivitäten",
+    "noRecentActivity": "Keine jüngsten Aktivitäten"
+  },
+  "tasks": {
+    "title": "Aufgaben",
+    "addTask": "Neue Aufgabe hinzufügen",
+    "noTasks": "Du hast noch keine Aufgaben"
+  },
+  "articles": {
+    "title": "Artikel",
+    "newArticle": "Neuen Artikel erstellen",
+    "noArticles": "Noch keine Artikel vorhanden"
+  },
+  "profile": {
+    "loading": "Wird geladen...",
+    "notSpecified": "Nicht angegeben",
+    "fillProfile": "Profil ausfüllen",
+    "addTech": "Technologien hinzufügen",
+    "hideTech": "Technologien ausblenden",
+    "technologies": "Technologien",
+    "notSelected": "Nicht ausgewählt",
+    "completedTasks": "Abgeschlossene Aufgaben",
+    "deadline": "Frist",
+    "noTasksDone": "Keine abgeschlossenen Aufgaben",
+    "pro": "Profil"
+  }
+}

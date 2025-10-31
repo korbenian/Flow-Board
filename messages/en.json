@@ -1,0 +1,107 @@
+{
+  "sidebar": {
+    "title": "FlowBoard",
+    "overview": "OVERVIEW",
+    "dashboard": "Dashboard",
+    "articles": "Articles",
+    "tasks": "Tasks",
+    "group": "Group",
+    "logout": "Logout",
+    "pro": "Profile"
+  },
+  "dashboard": {
+    "welcome": "Welcome back!",
+    "stats": "Your statistics",
+    "tasksCompleted": "Tasks completed",
+    "articlesPublished": "Articles published",
+    "tasksCreated": "Tasks created",
+    "totalUsers": "Total users",
+    "tasksDone": "Tasks done",
+    "disciplineStreak": "Discipline streak",
+    "days": "days",
+    "activityThisWeek": "Activity for this week",
+    "recentActivities": "Recent Activities",
+    "noRecentActivity": "No recent activity"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "addTask": "Add new task",
+    "noTasks": "You have no tasks yet"
+  },
+  "articles": {
+    "title": "Articles",
+    "newArticle": "Create new article",
+    "noArticles": "No articles yet"
+  },
+  "profile": {
+    "loading": "Loading...",
+    "notSpecified": "Not specified",
+    "fillProfile": "Fill Profile",
+    "addTech": "Add technologies",
+    "hideTech": "Hide technologies",
+    "technologies": "Technologies",
+    "notSelected": "Not selected",
+    "completedTasks": "Completed tasks",
+    "deadline": "Deadline",
+    "noTasksDone": "No completed tasks"
+  },
+  "Tasks": {
+    "searchPlaceholder": "Search tasks...",
+    "filterAll": "All",
+    "filterTodo": "To Do",
+    "filterInProgress": "In Progress",
+    "filterDone": "Done"
+  },
+  "taskView": {
+    "todo": "To Do",
+    "inProgress": "In Progress",
+    "done": "Done",
+    "deadline": "Deadline",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirmDelete": "Are you sure you want to delete?"
+  },
+  "avatarUpload": {
+    "loading": "Uploading...",
+    "changeAvatar": "Change avatar"
+  },
+  "taskEditing": {
+    "enterTask": "Enter task...",
+    "deadline": "Deadline until",
+    "create": "Create",
+    "delete": "Delete"
+  },
+  "tas": {
+    "Tasks": "Tasks"
+  },
+  "articl": {
+    "art": "Frontend Articles"
+  },
+  "profileEdit": {
+    "title": "Edit Profile",
+    "uploadLabel": "Upload a photo",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter your name",
+    "pseudoLabel": "Nickname",
+    "pseudoPlaceholder": "Enter your nickname",
+    "ageLabel": "Age",
+    "agePlaceholder": "Enter your age",
+    "sexLabel": "Gender",
+    "sexPlaceholder": "Your gender",
+    "descLabel": "Description",
+    "descPlaceholder": "Describe yourself",
+    "locationLabel": "City / Country",
+    "locationPlaceholder": "Your location",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "saveBtn": "Save",
+    "cancelBtn": "Cancel"
+  },
+  "taskForm": {
+    "enterTask": "Enter a task...",
+    "deadlineUntil": "Deadline until",
+    "create": "Create",
+    "delete": "Delete"
+  }
+}

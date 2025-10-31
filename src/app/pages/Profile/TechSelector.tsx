@@ -6,9 +6,9 @@ import {
   updateDoc
 } from 'firebase/firestore'
 import { useEffect, useState } from 'react'
-import { db } from '../../../firebase'
-import { useTask } from '../components/context/TaskContext'
-import techStack from '../../app/pages/Profile'
+import { db } from '../../../../firebase'
+import { useTask } from '../../components/context/TaskContext'
+import techStack from './Profile'
 import { doc, setDoc } from 'firebase/firestore'
 interface TechSelectorProps {
   onChange?: (techs: string[]) => void

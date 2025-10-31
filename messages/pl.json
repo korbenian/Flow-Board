@@ -1,0 +1,107 @@
+{
+  "sidebar": {
+    "title": "FlowBoard",
+    "overview": "PRZEGLĄD",
+    "dashboard": "Panel",
+    "articles": "Artykuły",
+    "tasks": "Zadania",
+    "group": "Grupa",
+    "logout": "Wyloguj się",
+    "pro": "Profil"
+  },
+  "Tasks": {
+    "searchPlaceholder": "Szukaj zadań...",
+    "filterAll": "Wszystkie",
+    "filterTodo": "Do zrobienia",
+    "filterInProgress": "W toku",
+    "filterDone": "Ukończone"
+  },
+  "taskForm": {
+    "enterTask": "Wpisz zadanie...",
+    "deadlineUntil": "Termin do",
+    "create": "Utwórz",
+    "delete": "Usuń"
+  },
+  "tas": {
+    "Tasks": "Zadania"
+  },
+  "articl": {
+    "art": "Artykuły frontendowe"
+  },
+  "taskView": {
+    "todo": "Do zrobienia",
+    "inProgress": "W toku",
+    "done": "Zrobione",
+    "deadline": "Termin",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "close": "Zamknij",
+    "confirmDelete": "Czy na pewno chcesz usunąć?"
+  },
+  "avatarUpload": {
+    "loading": "Ładowanie...",
+    "changeAvatar": "Zmień awatar"
+  },
+  "taskEditing": {
+    "enterTask": "Wpisz zadanie...",
+    "deadline": "Termin do",
+    "create": "Utwórz",
+    "delete": "Usuń"
+  },
+  "editProfile": {
+    "title": "✏️ Edycja profilu",
+    "uploadPhoto": "Prześlij zdjęcie",
+    "name": "Imię",
+    "pseudoname": "Pseudonim",
+    "age": "Wiek",
+    "sex": "Płeć",
+    "description": "Opis",
+    "location": "Miasto / Kraj",
+    "email": "Email",
+    "enterName": "Wpisz swoje imię",
+    "enterPseudoname": "Wpisz swój pseudonim",
+    "enterAge": "Wpisz swój wiek",
+    "enterSex": "Twoja płeć",
+    "enterDescription": "Opisz siebie",
+    "enterLocation": "Twoja lokalizacja",
+    "enterEmail": "Wpisz swój email",
+    "save": "✅ Zapisz",
+    "cancel": "❌ Anuluj"
+  },
+  "dashboard": {
+    "welcome": "Witaj ponownie!",
+    "stats": "Twoje statystyki",
+    "tasksCompleted": "Zakończone zadania",
+    "articlesPublished": "Opublikowane artykuły",
+    "tasksCreated": "Utworzone zadania",
+    "totalUsers": "Łączna liczba użytkowników",
+    "tasksDone": "Zadania wykonane",
+    "disciplineStreak": "Seria dyscypliny",
+    "days": "dni",
+    "activityThisWeek": "Aktywność w tym tygodniu",
+    "recentActivities": "Ostatnie aktywności",
+    "noRecentActivity": "Brak ostatniej aktywności"
+  },
+  "tasks": {
+    "title": "Zadania",
+    "addTask": "Dodaj nowe zadanie",
+    "noTasks": "Nie masz jeszcze zadań"
+  },
+  "articles": {
+    "title": "Artykuły",
+    "newArticle": "Utwórz nowy artykuł",
+    "noArticles": "Brak artykułów"
+  },
+  "profile": {
+    "loading": "Ładowanie...",
+    "notSpecified": "Nie podano",
+    "fillProfile": "Uzupełnij profil",
+    "addTech": "Dodaj technologie",
+    "hideTech": "Ukryj technologie",
+    "technologies": "Technologie",
+    "notSelected": "Nie wybrano",
+    "completedTasks": "Zakończone zadania",
+    "deadline": "Termin",
+    "noTasksDone": "Brak ukończonych zadań"
+  }
+}

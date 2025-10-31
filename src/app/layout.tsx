@@ -1,5 +1,12 @@
 import './globals.css'
-import { Providers } from './Providers'
+import Providers from '../app/Providers'
+import { ThemeProvider } from './Themeprovider'
+import ThemeScript from './Theme-script'
+
+export const metadata = {
+  title: 'My App',
+  description: 'Dashboard App'
+}
 
 export default function RootLayout ({
   children
@@ -7,9 +14,16 @@ export default function RootLayout ({
   children: React.ReactNode
 }) {
   return (
-    <html lang='en'>
+    <html lang='en' suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+            {children}
+          </ThemeProvider>
+        </Providers>
       </body>
     </html>
   )
