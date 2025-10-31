@@ -7,7 +7,7 @@ const nextConfig = {
     ignoreBuildErrors: true
   },
   i18n: {
-    locales: ['ru', 'en', 'pl', 'de', 'el'], // добавь сюда все свои языки
+    locales: ['ru', 'en', 'pl', 'de', 'fr'], // добавь сюда все свои языки
     defaultLocale: 'ru',
     localeDetection: false // с этого язык сайт будет начинаться
   }
