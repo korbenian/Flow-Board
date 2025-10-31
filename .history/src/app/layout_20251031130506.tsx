@@ -1,6 +1,6 @@
 //C:\Users\01\training\src\app\layout.tsx
 import './globals.css'
-import Providers from './Providers'
+import Providers from '../app/Providers'
 import { ThemeProvider } from './Themeprovider'
 import ThemeScript from './Theme-script'
 
