@@ -1,11 +1,10 @@
-import { useRouter, usePathname } from 'next/navigation'
+'use client'
 import ReactCountryFlag from 'react-country-flag'
 import { useState, useEffect } from 'react'
 
+// 🔹 Этот компонент просто меняет язык и сообщает об этом Provider'у через localStorage
 export default function LanguageSwitcher () {
   const [locale, setLocale] = useState('en')
-  const router = useRouter()
-  const pathname = usePathname()
 
   useEffect(() => {
     const saved = localStorage.getItem('locale') || 'en'
@@ -17,9 +16,8 @@ export default function LanguageSwitcher () {
     setLocale(newLocale)
     localStorage.setItem('locale', newLocale)
 
-    // Перенаправляем на новую локаль
-    const newPath = pathname.replace(/^\/(en|ru|pl|de|el)/, '') // убираем старую локаль из URL
-    router.push(`/${newLocale}${newPath || ''}`)
+    // 🟢 уведомим приложение о смене языка (без перезагрузки)
+    window.dispatchEvent(new Event('languageChange'))
   }
 
   return (
