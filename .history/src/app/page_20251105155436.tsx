@@ -2,7 +2,7 @@
 
 import { signIn } from 'next-auth/react'
 
-export default function Home () {
+export default function HomePage () {
   return (
     <div className='h-screen w-full bg-[linear-gradient(135deg,#0f0c29,#302b63,#24243e)] flex flex-col'>
       {/* Заголовок */}
