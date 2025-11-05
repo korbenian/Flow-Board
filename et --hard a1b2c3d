@@ -1,0 +1,89 @@
+[33mcommit d423e568b6ae5090cee9d3e6160bfc963bcd3a37[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Sat Nov 1 13:00:43 2025 +0500
+
+    fix: add [locale] routing
+
+[33mcommit f27d8de9d15e9fa13a5e1a48ad41a3bda6a12520[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Sat Nov 1 12:53:48 2025 +0500
+
+    fix: add [locale] routing
+
+[33mcommit 59b195469470c3ad528d7f4cc67aa54df800bbed[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Sat Nov 1 12:46:30 2025 +0500
+
+    fix: add [locale] routing
+
+[33mcommit 18a8ba9d8ba94086624ecf61c9ef4620d2538764[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Sat Nov 1 12:38:36 2025 +0500
+
+    fix: add [locale] routing
+
+[33mcommit 8ce990f08695ddf7542322fc03566571dc6b03e9[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Fri Oct 31 14:11:02 2025 +0500
+
+    fix: add [locale] routing
+
+[33mcommit 3558b7923f8b36b1a4e6a68391b6f79b09aaf745[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Fri Oct 31 14:07:08 2025 +0500
+
+    Use next-intl only
+
+[33mcommit 9365a94433009a69ad1575e2683a85d540862b91[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Fri Oct 31 13:57:39 2025 +0500
+
+    Use next-intl only
+
+[33mcommit 723943c8a726dcfb0c30bc0eebac1d3121965026[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Fri Oct 31 13:51:59 2025 +0500
+
+    Use next-intl only
+
+[33mcommit 3a0e8aa6f0d1b6a29d4e0218c0a1aec336a0ecdd[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Fri Oct 31 13:49:16 2025 +0500
+
+    Set default locale to English
+
+[33mcommit c9191c611c465d22ac3691543280891b35478b76[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Fri Oct 31 13:45:39 2025 +0500
+
+    Fixed i18n redirect loop
+
+[33mcommit b89e27c0fdffdf3f70ae00dee79a179141aec84f[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Fri Oct 31 13:42:08 2025 +0500
+
+    Добавил i18n поддержку
+
+[33mcommit 4894c4f93c2ce41b657b86c4fff00b162ff01942[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Fri Oct 31 12:46:35 2025 +0500
+
+    Добавлен выбор 5 языков и Тёмная тема
+
+[33mcommit c19a4f9d89ddfdd4cb25ef91afd46a664600609f[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Sat Oct 25 12:41:35 2025 +0500
+
+    fix: disable eslint build errors
+
+[33mcommit 58c69786c0ac162f1b0850f7bb79f2faecf04708[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Sat Oct 25 12:26:39 2025 +0500
+
+    Initial commit
+
+[33mcommit 4f190cfcb68b53a9d5b9b0658c2dc88fd98f2e31[m
+Author: Sergey Korobov <sergeykorobov.frontend@gmail.com>
+Date:   Mon Sep 1 12:18:30 2025 +0500
+
+    Initial commit from Create Next App
